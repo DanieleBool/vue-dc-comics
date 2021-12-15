@@ -96,7 +96,6 @@ export default {
         height: 70px;
     }
     nav {
-        width: 72%;
         ul {
             display: flex;
             list-style: none;
@@ -112,6 +111,8 @@ export default {
                     color: #000;
                     text-transform: uppercase;
                     line-height: 85px;
+                    font-size: 12px;
+                    font-weight: bold;
                 };
             };
             

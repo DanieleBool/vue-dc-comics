@@ -80,7 +80,7 @@
 
             <!-- footer bottom -->
             <div class="bottom">
-                <div class="contaier">
+                <div class="container">
                     <div class="divider">
                         <div class="sign-up">
                             <button>Sign-up now!</button>
@@ -142,23 +142,23 @@ export default {
         background-color: #0282F9;
         display: flex;
         ul {
-            height: 100px;
+            height: 120px;
             width: 100%;
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
+            justify-content: space-around;
             list-style: none;
             li {
                 display: flex;
                 align-items: center;
                 /* margin: 0 20px; */
                 img {
-                    width: 35px;
+                    width: 40px;
                 }
                 a {
                     text-decoration: none;
                     text-transform: uppercase;
-                    font-size: 12px;
+                    font-size: 13px;
                     color: white;
                     margin-left: 10px;
                 }
@@ -167,16 +167,16 @@ export default {
     }
 
     #locator{
-        width: 25px;
+        width: 26px;
     }
     #digital{
-        width: 30px;
+        width: 32px;
     }
 
     .middle {
-        height: 300px;
+        height: 340px;
         background-image: url('../assets/img/footer-bg.jpg');
-        
+        background-size: cover;
     }
 
     .middle .container {
@@ -186,24 +186,27 @@ export default {
         background-image: url('../assets/img/dc-logo-bg.png');
         background-repeat: no-repeat;
         background-position: right;
-        background-size: 40%;
+        background-size: 45%;
     }
 
     .links {
         display: flex;
         .col {
             margin-right: 30px;
+            
             ul {
                 list-style: none;
                 margin-bottom: 15px;
                 li h3 {
                     color: white;
                     text-transform: uppercase;
+                    margin-bottom: 13px;
                 }
                 li a {
-                    font-size: 13px;
+                    font-size: 12px;
                     color: #959595;
                     text-decoration: none;
+                    line-height: 18px;
                 }
             }
         }
