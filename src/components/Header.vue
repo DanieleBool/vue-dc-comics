@@ -89,12 +89,14 @@ export default {
         align-items: center;
     }
     .logo {
-        padding: 0px 20% 0px 0;
+        padding: 0px 10% 0px 0;
+        width: 10%;
     }
     .logo img{
         height: 70px;
     }
     nav {
+        width: 72%;
         ul {
             display: flex;
             list-style: none;
@@ -103,7 +105,7 @@ export default {
                     border-bottom: 5px solid;
                     color: $blue;
                 };
-                padding: 0px 20px;
+                padding: 0px 15px;
                 a {
                     display: inline-block;
                     text-decoration: none;
